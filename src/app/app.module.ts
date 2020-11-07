@@ -3,9 +3,10 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
+import { SignupComponent } from "./signup/signup.component";
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, SignupComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
