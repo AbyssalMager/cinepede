@@ -1,8 +1,17 @@
 body {
-  margin: auto;
-  height: 100px;
-  width: 100px;
-  padding: 50px;
+  font-size: 190%;
   text-align: center;
+  margin: auto;
+  padding-top: 50px;
   background-color: pink;
+  color: ;
+  top: -20px;
+
+/*magic block of css that expands to both sides of the screen*/
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  margin-top: -10px;
+  left: 50%;
 }
