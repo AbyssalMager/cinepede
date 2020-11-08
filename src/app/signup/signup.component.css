@@ -1,4 +1,4 @@
-input{
+input {
   width: 300px;
   height: 40px;
   margin: 5px;
@@ -6,10 +6,11 @@ input{
   border: 2px solid grey;
 }
 
-button{
+button {
+  border-radius: 4px;
   margin-top: 5px;
   margin-left: 5px;
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -17,4 +18,8 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+button:active {
+  background-color: lightgreen;
 }
