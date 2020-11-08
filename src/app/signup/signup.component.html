@@ -4,17 +4,17 @@
   <form (ngSubmit)="processForm()">
   <!-- name -->
   <div class="field">
-    <input type="text" name="name" class="input" placeholder="Name">
+    <input type="text" name="name" class="input" placeholder="Name" [(ngModel)]="name">
   </div>
 
   <!-- email -->
   <div class="field">
-    <input type="email" name="email" class="input" placeholder="Email">
+    <input type="email" name="email" class="input" placeholder="Email" [(ngModel)]="email">
   </div>
 
   <!-- password -->
   <div class="field">
-     <input type="password" name="password" class="input" placeholder="Password">
+     <input type="password" name="password" class="input" placeholder="Password" [(ngModel)]="password">
   </div>
 
   <button type="submit">Submit</button>
