@@ -7,7 +7,7 @@ body {
   color: ;
   top: -20px;
 
-/*magic block of css that expands to both sides of the screen*/
+  /*magic block of css that expands to both sides of the screen*/
   width: 100vw;
   position: relative;
   margin-left: -50vw;
