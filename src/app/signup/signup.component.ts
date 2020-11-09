@@ -6,7 +6,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./signup.component.css"]
 })
 export class SignupComponent implements OnInit {
-  name: string;
+  firstName: string;
+  lastName: string;
+  country: string;
+  language: string;
+  age: number;
   email: string;
   password: string;
 
@@ -18,7 +22,7 @@ export class SignupComponent implements OnInit {
    * Only alerting for now
    */
   processForm() {
-    const allInfo = `My name is ${this.name}. My email is ${
+    const allInfo = `My name is ${this.firstName}. My email is ${
       this.email
     }. My message is ${this.password}`;
     alert(allInfo);
