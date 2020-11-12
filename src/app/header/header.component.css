@@ -1,0 +1,17 @@
+ul {
+  background-color: grey;
+  padding-top: 17px;
+
+  list-style-type: none;
+
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 34px;
+  margin-top: -10px;
+  left: 50%;
+}
+
+li{
+  display: inline;
+}
