@@ -13,5 +13,14 @@ ul {
 }
 
 li{
-  display: inline;
+  display: block;
+  float: left;
+}
+
+a {
+  padding: 17px;
+}
+
+a:hover {
+  background-color:skyblue;
 }
